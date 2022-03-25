@@ -2,7 +2,7 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = Model.DisplayText;
+    //ViewBag.Title = Model.DisplayText;
 }
 
 <h2>@Model.DisplayText</h2>
@@ -26,7 +26,7 @@
                 </div>
             }
         </div>
-        <<h5>Description:</h5>
+        <h5>Description:</h5>
         <div>@Html.Raw(Model.DescriptionHtml)</div>
     </div>
     <div class="col-md-6">
